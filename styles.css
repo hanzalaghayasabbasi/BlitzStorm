@@ -1105,6 +1105,62 @@ nav ul li a:hover {
     }
 }
 
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer-company,
+    .footer-contact {
+        margin-bottom: 20px;
+    }
+
+    .footer-social {
+        justify-content: center;
+    }
+
+    .footer-social svg {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer-company,
+    .footer-contact {
+        margin-bottom: 20px;
+    }
+
+    .footer-social {
+        justify-content: center;
+    }
+
+    .footer-social svg {
+        width: 25px;
+        height: 25px;
+    }
+}
+
 /* Keyframes for fadeIn animation */
 @keyframes fadeIn {
     from { opacity: 0; }
