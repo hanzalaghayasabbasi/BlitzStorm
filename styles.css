@@ -1134,30 +1134,23 @@ nav ul li a:hover {
 }
 
 
-/* Media query for smaller screens */
+* Media Query for Smaller Screens */
 @media (max-width: 768px) {
-    .footer {
+    .footer-container {
         flex-direction: column;
         align-items: center;
-        text-align: center;
     }
 
-    .footer-logo {
-        margin-bottom: 20px;
-    }
-
+    .footer-logo,
     .footer-company,
     .footer-contact {
         margin-bottom: 20px;
+        text-align: center;
     }
 
     .footer-social {
         justify-content: center;
-    }
-
-    .footer-social svg {
-        width: 25px;
-        height: 25px;
+        margin-top: 20px;
     }
 }
 
