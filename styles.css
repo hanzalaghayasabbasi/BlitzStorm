@@ -1133,24 +1133,30 @@ nav ul li a:hover {
     }
 }
 
-
-* Media Query for Smaller Screens */
-@media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
+/* Mobile styles for 1080x2400 resolution */
+@media (max-width: 1080px) {
+    .footer-logo img {
+        width: 160px;
     }
 
-    .footer-logo,
-    .footer-company,
-    .footer-contact {
-        margin-bottom: 20px;
-        text-align: center;
+    .footer-logo p {
+        font-size: 16px;
     }
 
-    .footer-social {
-        justify-content: center;
-        margin-top: 20px;
+    .footer-company p, .footer-contact p {
+        font-size: 16px;
+    }
+
+    .footer-company a, .footer-contact a {
+        font-size: 14px;
+    }
+
+    .footer-line {
+        width: 95%;
+    }
+
+    .footer-copyright {
+        font-size: 12px;
     }
 }
 
