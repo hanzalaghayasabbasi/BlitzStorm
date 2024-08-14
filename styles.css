@@ -1109,7 +1109,7 @@ nav ul li a:hover {
 /* Media query for smaller screens */
 @media (max-width: 768px) {
     .footer {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         text-align: center;
     }
